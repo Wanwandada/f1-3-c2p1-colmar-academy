@@ -1,0 +1,124 @@
+html{
+  font-size:14px;
+  font-family:"Verdana", sans-serif;
+}
+
+#desktop{
+  display:none;
+}
+.canvas{
+  max-width:768px;
+  margin:0 auto;
+}
+.container_mobile{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.header_image{
+  display:flex-inline;
+  justify-content: space-around;
+}
+.banner{
+  display:flex;
+  flex-direction:column;
+  background-color:#DCDCDC;
+}
+.banner img{
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+.banner h1{
+  font-size:1.5rem;
+  font-weight:800;
+  margin:32px 16px;
+}
+.banner p{
+  font-size:1rem;
+  font-weight:500;
+  margin:16px 16px;
+}
+.button{
+  width:80%;
+  background-color:#696969;
+  margin:24px 16px 32px 16px;
+}
+.button p{
+  color:white;
+  text-align:center;
+  padding:8px 0;
+}
+
+.main{
+  display:flex;
+  flex-direction:column;
+  padding-right:16px;
+  padding-left:16px;
+}
+.main img{
+  width:100%;
+  height:auto;
+  margin:16px auto;
+}
+.main h2{
+  width:100%;
+  font-size:1rem;
+  font-weight:600;
+  margin-bottom:8px;
+}
+.main p{
+  width:100%;
+  font-size:0.5rem;
+  font-weight:300;
+  margin-bottom:8px;
+}
+#read_more{
+  color:blue;
+}
+#learning{
+  padding-top:32px;
+}
+#learning h1{
+  font-size:1.5rem;
+  font-weight:700;
+  text-align:center;
+}
+.learning{
+  display:inline-block;
+  width:100%;
+  margin-top:16px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.courses{
+  width:93%;
+  margin:16px 0;
+  background-color:#DCDCDC;
+}
+.courses h2{
+  font-size:1rem;
+  font-weight:600;
+  padding-top:16px;
+  padding-left:16px;
+  padding-bottom:16px;
+}
+#thesis{
+  width:100%;
+  padding:32px 16px 0px 16px;
+}
+#thesis h1{
+  font-size:1.5rem;
+  font-weight:700;
+  text-align:center;
+  margin-bottom:16px;
+}
+#thesis video{
+  width:93%;
+  height:auto;
+  margin:16px auto;
+}
+footer{
+  font-size:0.5rem;
+  margin:16px;
+}
